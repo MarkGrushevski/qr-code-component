@@ -1,0 +1,20 @@
+:root {
+  /* font */
+  --ff-base: "Outfit", sans-serif;
+  
+  --fs-base: 15px;
+  --fw-normal: 400;
+  --fw-bold: 700;
+  /* sizes */
+  --radius: 15px;
+  /* colors */
+  --light-grey: hsl(212, 45%, 89%);
+  --greyish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
