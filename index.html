@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="QR code component solution - Frontend Mentor">
-    <title>QR code component</title>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="QR code component solution - Frontend Mentor" name="description">
+  <title>QR code component</title>
+  <link
+    href="./images/favicon-32x32.png"
+    rel="icon"
+    sizes="32x32"
+    type="image/png"
+  />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
-      rel="stylesheet"
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="./styles.css" rel="stylesheet"/>
+</head>
+<body>
+<section class="qr-card">
+  <div class="qr-card__image-wrapper">
+    <img
+      alt="qr code"
+      class="qr-card__image"
+      src="./images/image-qr-code.png"
     />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <section class="qr-card">
-      <div class="qr-card__image-wrapper">
-        <img
-          src="./images/image-qr-code.png"
-          class="qr-card__image"
-          alt="qr code"
-        />
-      </div>
-      <article class="qr-card__content">
-        <h2 class="qr-card__header">
-          Improve your front-end skills by building projects
-        </h2>
-        <p class="qr-card__description">
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
-      </article>
-    </section>
-  </body>
+  </div>
+  <article class="qr-card__content">
+    <header class="qr-card__header">
+      Improve your front-end skills by building projects
+    </header>
+    <p class="qr-card__description">
+      Scan the QR code to visit Frontend Mentor and take your coding skills
+      to the next level
+    </p>
+  </article>
+</section>
+</body>
 </html>
