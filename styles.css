@@ -40,7 +40,6 @@ body {
   background-color: white;
 
   box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 3px;
-  text-shadow: 1px 1px 1px #00000030;
 
   max-width: 290px;
   padding: 20px;
@@ -68,9 +67,11 @@ body {
 .qr-card__header {
   font-size: 1.25rem;
   font-weight: var(--fw-bold);
+  color: var(--dark-blue);
   margin: 10px 0;
 }
 
 .qr-card__description {
+  color: var(--greyish-blue);
   margin: 10px 0;
 }
