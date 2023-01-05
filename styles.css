@@ -1,77 +1,77 @@
 :root {
-  /* font */
-  --ff-base: "Outfit", sans-serif;
+    /* font */
+    --ff-base: "Outfit", sans-serif;
 
-  --fs-base: 15px;
-  --fw-normal: 400;
-  --fw-bold: 700;
-  /* sizes */
-  --radius: 15px;
-  /* colors */
-  --light-grey: hsl(212, 45%, 89%);
-  --greyish-blue: hsl(220, 15%, 55%);
-  --dark-blue: hsl(218, 44%, 22%);
+    --fs-base: 15px;
+    --fw-normal: 400;
+    --fw-bold: 700;
+    /* sizes */
+    --radius: 15px;
+    /* colors */
+    --light-grey: hsl(212, 45%, 89%);
+    --greyish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: var(--light-grey);
+    background-color: var(--light-grey);
 
-  margin: 0;
+    margin: 0;
 
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .qr-card {
-  font-family: var(--ff-base);
-  font-size: var(--fs-base);
-  font-weight: var(--fw-normal);
-  border-radius: var(--radius);
-  background-color: white;
+    font-family: var(--ff-base);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-normal);
+    border-radius: var(--radius);
+    background-color: white;
 
-  box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 3px;
 
-  max-width: 290px;
-  padding: 20px;
+    max-width: 290px;
+    padding: 20px;
 
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .qr-card__image {
-  border-radius: var(--radius);
+    border-radius: var(--radius);
 
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 
-  display: block;
-  object-fit: fill;
+    display: block;
+    object-fit: fill;
 }
 
 .qr-card__content {
-  text-align: center;
-  word-wrap: break-word;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .qr-card__header {
-  font-size: 1.25rem;
-  font-weight: var(--fw-bold);
-  color: var(--dark-blue);
-  margin: 10px 0;
+    font-size: 1.25rem;
+    font-weight: var(--fw-bold);
+    color: var(--dark-blue);
+    margin: 10px 0;
 }
 
 .qr-card__description {
-  color: var(--greyish-blue);
-  margin: 10px 0;
+    color: var(--greyish-blue);
+    margin: 10px 0;
 }
